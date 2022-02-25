@@ -32,6 +32,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.339" />
 
+    <!-- Google Ad Wihtout MCM Code -->
     <com.google.android.gms.ads.admanager.AdManagerAdView
         android:id="@+id/withoutMcm"
         android:layout_width="wrap_content"
@@ -60,6 +61,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.645" />
 
+    <!-- Google Ad With MCM Code -->
     <com.google.android.gms.ads.admanager.AdManagerAdView
         android:id="@+id/withMcm"
         android:layout_width="wrap_content"

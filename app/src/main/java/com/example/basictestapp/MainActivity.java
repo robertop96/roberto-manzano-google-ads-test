@@ -31,15 +31,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        // Loads and Ad
-//        mAdManagerAdView = findViewById(R.id.adManagerAdView);
-//        AdManagerAdRequest adRequest = new AdManagerAdRequest.Builder().build();
-//        mAdManagerAdView.loadAd(adRequest);
-
-        //WithMcM Button Variable
+        //Button Variable for Ad Id Without MCM Code.
         Button buttonBannerNoMCM = (Button) findViewById(R.id.buttonBannerNoMCM);
 
-        //WithMcM Button Variable
+        //Button Variable for Ad Id With MCM Code.
         Button buttonBannerWithMCM = (Button) findViewById(R.id.buttonBannerWithMCM);
 
         // Shows Ad Banner with a Ad Unit Id Without MCM code.
@@ -49,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 // Requests the withoutMcm ad from Main Activity.
                 mAdManagerAdView = findViewById(R.id.withoutMcm);
                 AdManagerAdRequest adRequest = new AdManagerAdRequest.Builder().build();
-                // Loads the the Main Activity Ad
+                // Loads the Main Activity Ad
                 mAdManagerAdView.loadAd(adRequest);
             }
         });
@@ -61,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 // Requests the withMcm ad from Main Activity.
                 mAdManagerAdView = findViewById(R.id.withMcm);
                 AdManagerAdRequest adRequest = new AdManagerAdRequest.Builder().build();
-                // Loads the the Main Activity Ad
+                // Loads the Main Activity Ad
                 mAdManagerAdView.loadAd(adRequest);
             }
         });
